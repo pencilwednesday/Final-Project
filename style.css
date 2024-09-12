@@ -7,6 +7,10 @@
     font-family: "Inter", sans-serif;
 }
 
+body {
+    padding: 32px;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -17,21 +21,65 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #fff;
-    
-
 }
 
 a {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 14px;
+    font-weight: 600;
     color: #234e63;
+    text-decoration: none;
+    margin: 0 24px;
+    padding: 0 0 4px;
+    transition: all 300ms ease;
+}
+
+a:hover {
+    color: #6415ff;
+    text-decoration: underline;
+}
+
+.logo__text {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 24px 0 0;
+}
+
+.logo__text:hover {
+    color: #6415ff;
+    text-decoration: none;
+    position: relative;
+    transition: all 300ms ease;
 }
 
 .logo {
-    width: 60px;
+    width: 40px;
+    width: 40px;
+    margin: 0 12px 0 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__login {
+    margin: 0 24px 0 48px;
+}
+
+.menu__primary {
+    color: white;
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border-radius: 32px;
+}
+
+.menu__primary:hover {
+    background-color: #4710b5;
+    color: white;
+    text-decoration: none;
+    transition: all 300ms ease;
 }
 
 ul {
@@ -40,5 +88,4 @@ ul {
 
 li {
     list-style: none;
-    padding: 24px;
 }
