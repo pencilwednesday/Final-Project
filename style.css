@@ -40,6 +40,55 @@ a:hover {
     text-decoration: underline;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+p {
+    font-size: 12px;
+    color: #a0aec0;
+}
+
+input {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.header__info--container {
+    width: 40%;
+}
+
+.header__img {
+    width: 60%;
+}
+
+.email__button {
+    display: flex;
+    border-radius: 24px;
+}
+
+.header__subtext {
+    margin: 80px 0 0;
+}
+
+button {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    color: white;
+    background: #6415ff;
+    margin: 8px 8px 8px 0;
+    padding: 16px 0;
+    border-radius: 24px;
+}
+
 .logo__text {
     font-size: 24px;
     font-weight: 900;
@@ -88,4 +137,46 @@ ul {
 
 li {
     list-style: none;
+}
+
+/*
+
+HEADER
+
+*/
+
+header {
+    padding: 96px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: row;
+    margin: 0 auto;
+}
+
+.header__text {
+    font-size: 18px;
+    color: #243e63;
+    margin: 36px 0;
+    line-height: 1.5;
+}
+
+.img__subtext {
+    width: 100%;
+    margin: 16px 0 0;
+    padding: 0 64px 0 0;
+    opacity: 0.5;
+}
+
+/*
+
+FEATURES
+
+*/
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
 }
