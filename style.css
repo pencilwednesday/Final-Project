@@ -41,7 +41,9 @@ a:hover {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 64px;
+    font-weight: 900;
+    color: #243e63;
 }
 
 .purple {
@@ -49,30 +51,32 @@ h1 {
 }
 
 p {
-    color: #a0aec0;
+    color: #6b7280;
 }
 
 input {
     width: 100%;
-    padding: 24px;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 9999px;
-    border-width: 2px;
-    z-index: -1;
+    padding: 16px;
+    border-radius: 32px;
+    border: 2px solid #ccc;
+    margin-right: 8px;
+}
+
+header {
+    padding: 120px 0;
 }
 
 .header__info--container {
-    width: 40%;
+    margin-bottom: 48px;
 }
 
 .header__img {
-    width: 60%;
+    width: 100%;
 }
 
 .email__button {
     display: flex;
-    border-radius: 24px;
+    align-items: center;
 }
 
 .header__subtext {
@@ -80,14 +84,12 @@ input {
 }
 
 button {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 16px;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 32px;
+    background-color: #6415ff;
     color: white;
-    background: #6415ff;
-    margin: 8px 8px 8px 0;
-    padding: 16px 0;
-    border-radius: 24px;
+    cursor: pointer;
 }
 
 .logo__text {
@@ -116,6 +118,8 @@ button {
 
 .menu__login {
     margin: 0 24px 0 48px;
+    color: #234e63;
+    font-weight: 600;
 }
 
 .menu__primary {
@@ -123,6 +127,7 @@ button {
     background-color: #6415ff;
     padding: 12px 32px;
     border-radius: 32px;
+    transition: background-color 300ms ease;
 }
 
 .menu__primary:hover {
@@ -149,7 +154,6 @@ HEADER
 header {
     padding: 96px 0;
     display: flex;
-    justify-content: center;
     flex-wrap: row;
     margin: 0 auto;
 }
@@ -168,9 +172,12 @@ header {
     opacity: 0.5;
 }
 
+.header__img {
+    width: 50%;
+}
+
 .spacer {
-    margin-top: 60px;
-    width: 100%;
+    margin-top: 80px;
 }
 
 /*
@@ -182,13 +189,16 @@ FEATURES
 .services {
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: grid;
     max-width: 1024px;
     flex-flow: column wrap;
-    align-items: center;
+    align-items: start;
+    padding-top: 96px;
+
 }
 .features__title {
     color: #6415ff;
+    font-size: 16px;
     font-weight: 700;
     margin: 0 0 16px;
     margin-bottom: 1rem;
@@ -202,7 +212,7 @@ FEATURES
 .features__subtext {
     color: #243e63;
     font-size: 48px;
-    width: 100%;
+    width: 1000px;
     text-align: center;
     font-weight: 900;
     letter-spacing: 0.025em;
@@ -228,15 +238,7 @@ FEATURES
 
 .text__container {
     margin: 8px 0 0 16px;
-}
-
-.features__title,
-.features__subtext,
-.features__description {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    max-width: 500px;
 }
 
 .imageContainer {
@@ -249,6 +251,11 @@ FEATURES
 }
 
 .services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
