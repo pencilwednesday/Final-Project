@@ -11,12 +11,6 @@ body {
     padding: 32px;
 }
 
-.row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -255,7 +249,39 @@ FEATURES
     flex-wrap: wrap;
 }
 
-.row {
+/*
+
+QUALITY WORK
+
+*/
+
+.qw__wrapper {
     display: flex;
-    flex-wrap: wrap;
+ 
+}
+
+.qw__subheading {
+    font-size: 16px;
+}
+
+.qw__heading--large {
+    font-size: 48px;
+    margin: 16px 0 0;
+}
+
+.qw__description {
+    font-size: 18px;
+    color: #7c8ba1;
+    font-weight: 500;
+}
+
+.qw__button {
+    color: #f7fafc;
+    background-color: #6415ff;
+    margin: 32px 0 0;
+    padding: 12px 32px;
+}
+
+.qw__image {
+    max-width: 100%;
 }
