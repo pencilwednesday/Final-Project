@@ -8,15 +8,100 @@
 }
 
 body {
+    min-height: 100vh;
     padding: 32px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.purple {
+    color: #6415ff;
 }
 
+/* 
+
+NAV 
+
+*/
+
+nav {
+    display: flex;
+}
+
+.nav__container {
+   width: 100%;
+   max-width: 1600px;
+   padding: 0 24px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.logo {
+    width: 40px;
+    margin: 0 12px 0 0;
+}
+
+.logo__text {
+    display: flex;
+    align-items: center;
+    color: #243e63;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__link {
+    margin: 0 24px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #243e63;
+    font-weight: 600;
+}
+
+.nav__link--login {
+  text-decoration: none;
+  color: #243e63;
+  font-weight: 600; 
+  margin: 0 24px 0 48px;
+}
+
+.nav__link--primary {
+    padding: 12px 32px;
+    text-decoration: none;
+    border: none;
+    border-radius: 32px;
+    background-color: #6415ff;
+    color: white;
+    cursor: pointer;
+}
+
+/*
+
+HEADER
+
+*/
+
+.header__container {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    padding: 96px 0;
+}
+
+.header__wrapper--left {
+
+}
+
+
+/*
 a {
     display: flex;
     align-items: center;
@@ -29,14 +114,20 @@ a {
     transition: all 300ms ease;
 }
 
+
 a:hover {
     color: #6415ff;
     text-decoration: underline;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-size: 48px;
-    font-weight: 900;
+
     color: #243e63;
 }
 
@@ -56,12 +147,11 @@ input {
     margin-right: 8px;
 }
 
-header {
-    padding: 120px 0;
-}
-
 .header__info--container {
-    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
 }
 
 .header__img {
@@ -101,7 +191,6 @@ button {
 
 .logo {
     width: 40px;
-    width: 40px;
     margin: 0 12px 0 0;
 }
 
@@ -131,25 +220,10 @@ button {
     transition: all 300ms ease;
 }
 
-ul {
-    display: flex;
-}
+
 
 li {
     list-style: none;
-}
-
-/*
-
-HEADER
-
-*/
-
-header {
-    padding: 96px 0;
-    display: flex;
-    flex-wrap: row;
-    margin: 0 auto;
 }
 
 .header__text {
@@ -178,7 +252,7 @@ header {
 
 FEATURES
 
-*/
+
 
 .services {
     margin-left: auto;
@@ -253,7 +327,7 @@ FEATURES
 
 QUALITY WORK
 
-*/
+
 
 .qw__wrapper {
     display: flex;
