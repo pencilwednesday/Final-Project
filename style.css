@@ -130,16 +130,21 @@ input {
     border-radius: 40px;
     border: 2px solid #ccc;
     margin-right: 8px;
+    position: relative;
 }
 
 button {
+    font-size: 16px;
     width: 100px;
-    padding: 16px 24px;
+    padding: 16px 0;
+    width: 10rem;
     border: none;
     border-radius: 40px;
     background-color: #6415ff;
     color: white;
     cursor: pointer;
+    position: absolute;
+    left: 300px;
 }
 
 .input__wrapper {
@@ -173,24 +178,27 @@ FEATURES
 
 */
 
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .features__container {
     padding: 80px 0;
-    text-align: center;
 }
 
 .features__row {
     flex-direction: row;
-    justify-content: center;
 }
 
 .services {
-
     display: flex;
     flex-wrap: wrap;
 }
 
 .box {
-    width: 200px;
+    width: 30%;
     height: 100px;
 }
 
@@ -209,17 +217,15 @@ FEATURES
     color: #243e63;
     font-weight: 900;
     letter-spacing: 0.025em;
-
+    text-align: center;
 }
 
 .features__description {
- 
     font-size: 18px;
     font-weight: 500;
     color: #7c8ba1;
-    width: 100%;
     max-width: 600px;
-  
+    text-align: center;
     line-height: 1.625;
     padding: 16px 0 0 0;
 }
