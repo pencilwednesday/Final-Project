@@ -104,8 +104,10 @@ HEADER
 }
 
 .header__wrapper--left {
+    display: flex;
+    flex-direction: column;
     width: 40%;
-    max-width: 500px;
+ 
 }
 
 .heading {
@@ -123,28 +125,30 @@ HEADER
 }
 
 input {
-    width: 100%;
+    font-size: 100%;
+    font-weight: 500;
+    width: 500px;
     max-width: 400px;
-    height: 70px;
-    padding: 16px;
-    border-radius: 40px;
+    padding: 20px 192px 20px 32px;
+    border-radius: 9999px;
     border: 2px solid #ccc;
-    margin-right: 8px;
     position: relative;
 }
 
 button {
     font-size: 16px;
-    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
     padding: 16px 0;
-    width: 10rem;
-    border: none;
-    border-radius: 40px;
+    font-weight: 700;
+    border-radius: 9999px;
     background-color: #6415ff;
     color: white;
     cursor: pointer;
     position: absolute;
-    left: 300px;
+    left: 350px;
 }
 
 .input__wrapper {
@@ -153,6 +157,9 @@ button {
 }
 
 .customers {
+    font-size: 12px;
+    font-weight: 700;
+    color: #a0aec0;
     margin: 80px 0 0;
 }
 
@@ -178,28 +185,20 @@ FEATURES
 
 */
 
+.features__container {
+    padding: 80px 0;
+}
+
 .features {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.features__container {
-    padding: 80px 0;
-}
-
-.features__row {
-    flex-direction: row;
-}
-
-.services {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .box {
     width: 30%;
     height: 100px;
+    max-width: 300pxo;
 }
 
 .subheading {
@@ -208,7 +207,6 @@ FEATURES
     font-weight: 700;
     margin-bottom: 1rem;
     letter-spacing: 0.1em;
-
 }
 
 .features__heading {
@@ -221,22 +219,52 @@ FEATURES
 }
 
 .features__description {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #7c8ba1;
     max-width: 600px;
     text-align: center;
-    line-height: 1.625;
+    line-height: 2;
     padding: 16px 0 0 0;
 }
 .imageContainer {
-    border: 2px solid #ccc;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     padding: 20px;
-    border-radius: 30px;
+    border: 2px solid #ccc;
+    border-radius: 9999px;
 }
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.service {
+    display: flex;
+    width: calc(100%/3);
+}
 
+.service__title {
+    font-size: 24px;
+    color: #243e63;
+    margin: 16px 0 0;
+    font-weight: 700;
+}
+
+.service__description {
+    background-color: lightblue;
+    font-size: 16px;
+    margin: 16px 0 0;
+    color: #7c8ba1;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.textContainer {
+    margin: 8px 0 0 16px;
+}
 
 
 
