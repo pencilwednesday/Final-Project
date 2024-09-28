@@ -175,10 +175,6 @@ button {
     width: 60%;
 }
 
-.spacer {
-    margin-top: 80px;
-}
-
 /*
 
 FEATURES 
@@ -193,20 +189,10 @@ FEATURES
     justify-content: center;
 }
 
-.features__row {
-
-}
-
 .features {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.box {
-    width: 30%;
-    height: 100px;
-    max-width: 300pxo;
 }
 
 .subheading {
@@ -227,7 +213,7 @@ FEATURES
 }
 
 .features__description {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: #7c8ba1;
     max-width: 600px;
@@ -236,10 +222,16 @@ FEATURES
     padding: 16px 0 0 0;
 }
 
+.spacer {
+    margin-top: 50px;
+    width: 100%;
+}
+
 .imageContainer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    height: 65px;
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 9999px;
@@ -248,11 +240,13 @@ FEATURES
 .services {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .service {
     display: flex;
-    width: calc(100%/3);
+    max-width: 300px;
+  
     margin: 0 16px;
     padding: 32px 8px;
 }
@@ -275,6 +269,18 @@ FEATURES
 .textContainer {
     margin: 8px 0 0 16px;
 }
+
+/*
+
+QUALITY WORK
+
+*/
+
+
+
+
+
+
 
 
 
