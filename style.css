@@ -107,7 +107,6 @@ HEADER
     display: flex;
     flex-direction: column;
     width: 40%;
- 
 }
 
 .heading {
@@ -246,7 +245,6 @@ FEATURES
 .service {
     display: flex;
     max-width: 300px;
-  
     margin: 0 16px;
     padding: 32px 8px;
 }
@@ -291,7 +289,6 @@ QUALITY WORK
     width: 50%;
     display: flex;
     flex-direction: column;
-    
 }
 
 .qualityWork__right {
@@ -361,7 +358,7 @@ STEPS
     padding: 96px 0;
     margin-left: auto;
     margin-right: auto;
-    justify-content: ceter;
+    justify-content: center;
 }
 
 .steps {
@@ -434,6 +431,111 @@ STEPS
 VALUES
 
 */
+
+.values__container {
+    padding: 96px 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+}
+
+.values__wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.values__subheading {
+    color: #6415ff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.values__heading {
+    color: #243e63;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 0 0;
+    line-height: 1.25;
+}
+
+.values__description {
+    color: #7c8ba1;
+    font-size: 18px;
+    margin: 32px 0 0 0;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.horizontalFeatures {
+    display: flex;
+}
+
+.horizontalFeatures__dollar {
+    background-color: #9ae6b4;
+    padding: 6px;
+    border-radius: 9999px;
+}
+
+.horizontalFeatures__briefcase {
+    background-color: #feb2b2;
+    padding: 6px;
+    border-radius: 9999px;
+}
+
+.horizontalFeatures__wrapper {
+    margin: 32px 32px 0 0;
+}
+
+.horizontalFeatures__imageHeading {
+    display: flex;
+}
+
+.horizontalFeatures__heading {
+    color: #243e63;
+    font-size: 20px;
+    margin: 0 0 0 12px;
+    font-weight: 700;
+}
+
+.horizontalFeatures__description {
+    color: #718096;
+    font-size: 16px;
+    margin: 16px 0 0 0;
+    line-height: 1.5;
+}
+
+.values__learnMore {
+    font-size: 14px;
+    font-weight: 700;
+    width: 145px;
+    margin: 48px 0 0 0;
+    padding: 12px 32px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9999px;
+    background-color: #6415ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
