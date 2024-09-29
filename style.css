@@ -276,7 +276,80 @@ QUALITY WORK
 
 */
 
+.qualityWork__container {
+    padding: 96px 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
 
+.qualityWork {
+    display: flex;
+}
+
+.qualityWork__wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.qualityWork__right {
+    padding: 32px 0;
+    margin-right: 50px;
+}
+
+.qualityWork__left {
+    border-radius: 1px;
+    border-width: 1px;
+}
+
+.qualityWork__subheading {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.qualityWork__heading {
+    color: #243e63;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 0;
+}
+
+.qualityWork__para {
+    font-size: 18px;
+    color: #7c8ba1;
+    margin: 16px 0 0;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.learnMore {
+    font-size: 14px;
+    font-weight: 700;
+    width: 145px;
+    margin: 32px 0 0;
+    padding: 12px 32px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9999px;
+    background-color: #6415ff;
+    color: white;
+    cursor: pointer;
+}
+
+.qulityWork__wrapper--image {
+    width: 50%;
+
+}
+
+.qualityWork__image {
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
 
 
 
