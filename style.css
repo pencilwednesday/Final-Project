@@ -344,7 +344,6 @@ QUALITY WORK
 
 .qualityWork__image {
     width: 100%;
-    border: 2px solid lightgray;
     border-radius: 5px;
 }
 
@@ -530,11 +529,34 @@ VALUES
 
 */
 
+.pricing__subheading {
+    color: #6415ff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+    letter-spacing: 2px;
+}
+
+.pricing__heading {
+    color: #243e63;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.pricing__description {
+    color: #7c8ba1;
+    font-size: 18px;
+    width: 550px;
+    font-weight: 500;
+    margin: 16px 0 0;
+    line-height: 1.5;
+}
+
 .pricing__container {
     padding: 80px 0;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1024px;
     justify-content: center;
 }
 
@@ -545,75 +567,139 @@ VALUES
 }
 
 .plans__container {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8px 32px 0 32px;
 }
 
-.plans__header {
+.plan {
+    width: 100%;
+    max-width: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 32px 0 0;
+    padding: 8px 32px 0;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+}
+
+.plan__header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.plan__feature {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 -32px;
+    padding: 32px;
+    border: 2px solid lightgray;
 }
 
-.plans__feature {
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 48px;
+    height: 85px;
+    margin: 4px 0;
+    font-weight: 700;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-.plans__button {
+.duration {
+    font-size: 16px;
+    color: #a0aec0;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+.feature {
+    font-size: 16px;
+    font-weight: 500;
+    color: #718096;
+    margin: 20px 0 0;
+}
+
+.mainFeature {
+
+    font-size: 20px;
+    color: #1a202c;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.plan__button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 32px 64px;
 }
 
 .button__personal {
-    font-size: 16px;
+    font-size: 14px;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    padding: 16px 0;
+    width: 200px;
+    padding: 16px 32px;
     font-weight: 700;
     border-radius: 9999px;
-    background-color: #6415ff;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     color: white;
     cursor: pointer;
-    left: 350px;
 }
 
 .button__business {
-    font-size: 16px;
+    font-size: 14px;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    padding: 16px 0;
+    width: 200px;
+    padding: 16px 32px;
     font-weight: 700;
     border-radius: 9999px;
-    background-color: #6415ff;
-    color: white;
+    background-color: white;
+    color: #6415ff;
     cursor: pointer;
     left: 350px;
 }
 
 .button__enterprise {
-    font-size: 16px;
+    font-size: 14px;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    padding: 16px 0;
+    width: 200px;
+    padding: 16px 32px;
     font-weight: 700;
     border-radius: 9999px;
-    background-color: #6415ff;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     color: white;
     cursor: pointer;
-    left: 350px;
+}
+
+.plan__business {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
   
-   
+.white {
+    color: #fff;
+}
     
 
 
