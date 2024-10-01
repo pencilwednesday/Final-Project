@@ -600,7 +600,8 @@ VALUES
     align-items: center;
     margin: 0 -32px;
     padding: 32px;
-    border: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 .name {
@@ -701,6 +702,12 @@ VALUES
     color: #fff;
 }
     
+/*
+
+TESTIMONIALS
+
+*/
+
 
 
 
