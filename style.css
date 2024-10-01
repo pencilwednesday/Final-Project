@@ -279,6 +279,7 @@ QUALITY WORK
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    max-width: 1200px;
 }
 
 .qualityWork {
@@ -351,6 +352,7 @@ STEPS
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    max-width: 1200px;
 }
 
 .steps {
@@ -425,6 +427,7 @@ VALUES
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    max-width: 1200px;
 }
 
 .values {
@@ -533,6 +536,7 @@ VALUES
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    max-width: 1200px;
 }
 
 .pricing__headerContainer {
@@ -688,6 +692,7 @@ TESTIMONIALS
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    max-width: 1200px;
 }
 
 .testimonials {
