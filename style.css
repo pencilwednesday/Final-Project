@@ -791,7 +791,152 @@ TESTIMONIALS
     border-radius: 9999px;
 }
 
+/*
 
+FAQS
+
+*/
+
+.faqs__container {
+    padding: 96px 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqs__headerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqs__subheader {
+    color: #6415ff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 16px 0;
+}
+
+.faqs__header {
+    color: #243e63;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faqs__description {
+    color: #7c8ba1;
+    font-size: 18px;
+    margin: 16px 0 0;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 575px;
+    text-align: center;
+}
+
+.droplist__container {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.droplist__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.question__wrapper {
+    padding: 16px 40px;
+    margin: 20px 0 0 0;
+    background-color: #edf2f7;
+    width: 900px;
+    border-radius: 8px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questionText {
+    color: #2d3748;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.arrow {
+    width: 24px;
+}
+
+/*
+
+GET STARTED
+
+*/
+
+.getStarted__container {
+    margin-bottom: 96px;
+}
+
+.background__container {
+    width: 100%;
+    height: 280px;
+    max-width: 1280px;
+    border-radius: 8px;
+    background-color: #6415ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getStarted__row--container {
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+ 
+}
+
+.getStarted__text {
+    color: #f7fafc;
+    font-size: 30px;
+    font-weight: 700;
+    width: 480px;
+}
+
+.getStarted__primaryLink {
+    font-size: 16px;
+    padding: 20px 40px;
+    margin: 0 32px 0 0;
+    font-weight: 700;
+    border-radius: 9999px;
+    background-color: #f56565;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.getStarted__secondaryPrimaryLink {
+    font-size: 16px;
+    padding: 20px 40px;
+    font-weight: 700;
+    border-radius: 9999px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
 
 
 
