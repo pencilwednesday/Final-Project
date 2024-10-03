@@ -946,13 +946,15 @@ FOOTER
 */
 
 .fiveColumnWithBackground__container {
-    background-color: yellow;
+    background-color: #6415ff;
+    display: flex;
+    justify-content: center;
 }
 
 .fiveColumnWithBackground__content {
     width: 100%;
+    max-width: 1200px;
     background-color: #6415ff; 
-    
 }
 
 .fiveColumnWithBackground__fiveColums {
@@ -1010,10 +1012,36 @@ FOOTER
     width: 32px;
 }
 
+.footerInfo__text {
+    font-size: 20px;
+    color: #f7fafc;
+    margin: 0 0 0 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
 
+.footerCopyRights {
+    font-size: 16px;
+    color: #cbd5e0;
+    font-weight: 500;
+}
 
+.socialLink { 
+    color: black;
+    background-color: #f7fafc;
+    margin: 0 16px 0 0;
+    padding: 8px;
+    border-radius: 9999px;
+    text-decoration: none;
+}
 
+.socialLink__facebook {
+    padding: 8px 12px;
+}
 
+.socialLink__youtube {
+    margin: 0 0 0 0;
+}
 
 
 
