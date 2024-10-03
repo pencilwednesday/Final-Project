@@ -939,6 +939,76 @@ GET STARTED
 }
 
 
+/*
+
+FOOTER
+
+*/
+
+.fiveColumnWithBackground__container {
+    background-color: yellow;
+}
+
+.fiveColumnWithBackground__content {
+    width: 100%;
+    background-color: #6415ff; 
+    
+}
+
+.fiveColumnWithBackground__fiveColums {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fiveColumnWithBackground__column {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0 0;
+}
+
+.fiveColumnWithBackground__columnHeading {
+    color: #f7fafc;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fiveColumnWithBackground__linkListItem {
+    margin: 12px 0 0;
+    
+}
+
+.fiveColumnWithBackground__link {
+    color: #f7fafc;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 0 14px;
+}
+
+.fiveColumnWithBackground__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    border-bottom-width: 2px;
+    margin: 64px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__image--container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__image {
+    width: 32px;
+}
 
 
 
