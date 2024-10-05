@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <script src="index.js"></script>
   </head>
   <body>
     <section>
@@ -37,6 +38,25 @@
               <a class="nav__link--primary" class="menu__primary" href="#signup"
                 >Sign Up</a
               >
+            </li>
+          </ul>
+        </div>
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#" class="menu__link">Home</a>
+            </li>
+            <li class="menu__list">
+              <a href="#features" class="menu__link">Books</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor">Contacts</a>
             </li>
           </ul>
         </div>
@@ -294,9 +314,9 @@
               <div>
                 <h5 class="subheading">VALUES</h5>
                 <h2 class="values__heading">
-                  We Always Abude by Our <span class="purple">Principles.</span>
+                  We Always Abide by Our <span class="purple">Principles.</span>
                 </h2>
-                <p class="valuus__description">
+                <p class="values__description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -444,11 +464,13 @@
                 ad minim veniam.
               </p>
               <div class="customer__wrapper">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+                <div>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
                 <div class="testimonial__heading">Amazing User Experience</div>
                 <p class="testimonial__quote">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
