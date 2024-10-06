@@ -28,11 +28,12 @@ body {
 
 .purple {
     color: #6415ff;
+    font-weight: 700;
 }
 
 /* 
 
-NAV 
+<----------NAV---------->
 
 */
 
@@ -159,7 +160,7 @@ li {
 
 /*
 
-HEADER
+<----------HEADER---------->
 
 */
 
@@ -252,7 +253,7 @@ input {
 
 /*
 
-FEATURES 
+<----------FEATURES----------> 
 
 */
 
@@ -338,7 +339,7 @@ FEATURES
 
 /*
 
-QUALITY WORK
+<----------QUALITY WORK---------->
 
 */
 
@@ -347,13 +348,12 @@ QUALITY WORK
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    
     max-width: 1200px;
 }
 
 .qualityWork {
     display: flex;
-    align-items: centeruuu;
+    align-items: center;
 }
 
 .qualityWork__wrapper {
@@ -403,17 +403,17 @@ QUALITY WORK
 
 .qulityWork__wrapper--image {
     width: 50%;
-
 }
 
 .qualityWork__image {
     width: 100%;
-    border-radius: 5px;
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 4px;
 }
 
 /*
 
-STEPS
+<----------STEPS---------->
 
 */
 
@@ -488,7 +488,7 @@ STEPS
 
 /*
 
-VALUES
+<----------VALUES---------->
 
 */
 
@@ -581,7 +581,7 @@ VALUES
 
 /*
 
-VALUES
+<----------PRICING---------->
 
 */
 
@@ -618,14 +618,13 @@ VALUES
 .plans__container {
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 8px 32px 0 32px;
 }
 
 .plan {
     width: 100%;
-    max-width: 500px;
+    max-width: 1280x;
     width: 1200px;
     display: flex;
     flex-direction: column;
@@ -703,7 +702,8 @@ VALUES
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     padding: 16px 32px;
     font-weight: 700;
     border-radius: 9999px;
@@ -718,7 +718,8 @@ VALUES
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     padding: 16px 32px;
     font-weight: 700;
     border-radius: 9999px;
@@ -734,7 +735,8 @@ VALUES
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     padding: 16px 32px;
     font-weight: 700;
     border-radius: 9999px;
@@ -753,7 +755,7 @@ VALUES
     
 /*
 
-TESTIMONIALS
+<----------TESTIMONIALS---------->
 
 */
 
@@ -840,7 +842,23 @@ TESTIMONIALS
     display: flex;
 }
 
+.customerProfilePicture {
+    width: 80px;
+    border-radius: 9999px;
+}
+
+.customerName {
+    font-size: 20px;
+    color: #243e63;
+}
+
+.customerInfo {
+    font-size: 16px;
+    color: #7c8ba1;
+}
+
 .arrowLeft {
+    color: #6415ff;
     background-color: #edf2f7;
     width: 50px;
     height: 50px;
@@ -850,6 +868,7 @@ TESTIMONIALS
 }
 
 .arrowRight {
+    color: #6415ff;
     background-color: #edf2f7;
     width: 50px;
     height: 50px;
@@ -858,14 +877,11 @@ TESTIMONIALS
     padding: 16px
 }
 
-.customerProfilePicture {
-    width: 80px;
-    border-radius: 9999px;
-}
+
 
 /*
 
-FAQS
+<----------FAQS---------->
 
 */
 
@@ -913,6 +929,7 @@ FAQS
 }
 
 .droplist__container {
+    
     margin-top: 48px;
     display: flex;
     flex-direction: column;
@@ -920,19 +937,22 @@ FAQS
 }
 
 .droplist__wrapper {
+    width: 100%;
+    max-width: 896px;
     display: flex;
     justify-content: center;
 }
 
 .question__wrapper {
+    width: 100%;
     padding: 16px 40px;
     margin: 20px 0 0 0;
-    background-color: #edf2f7;
-    width: 900px;
+    background-color: #edf2f7;  
     border-radius: 8px;
 }
 
 .question {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -940,18 +960,21 @@ FAQS
 
 .questionText {
     color: #2d3748;
-    width: 100%;
+
+
     font-size: 20px;
     font-weight: 600;
 }
 
 .arrow {
+    font-size: 26px;
     width: 24px;
+    transform: rotate(180deg);
 }
 
 /*
 
-GET STARTED
+<----------GET STARTED---------->
 
 */
 
@@ -989,6 +1012,7 @@ GET STARTED
 
 .getStarted__primaryLink {
     font-size: 16px;
+    width: 100%;
     padding: 20px 40px;
     margin: 0 32px 0 0;
     font-weight: 700;
@@ -1001,6 +1025,7 @@ GET STARTED
 
 .getStarted__secondaryPrimaryLink {
     font-size: 16px;
+    width: 100%;
     padding: 20px 40px;
     font-weight: 700;
     border-radius: 9999px;
@@ -1013,20 +1038,22 @@ GET STARTED
 
 /*
 
-FOOTER
+<----------FOOTER---------->
 
 */
 
 #footer {
     background-color: #6415ff;
     width: 100%;
-    height: calc(50vh - 80px);
+    
 }
 
 .fiveColumnWithBackground__container {
     background-color: #6415ff;
     display: flex;
     justify-content: center;
+    margin: -32px;
+    padding: 32px;
 }
 
 .fiveColumnWithBackground__content {
@@ -1123,11 +1150,12 @@ FOOTER
 
 /*
 
-Small phones, tablets, smartphones
+<----------Small phones, tablets, smartphones---------->
 
 */
 
-@media (max-width: 1275px) {
+/* <--------------------1275px--------------------> */
+@media (max-width: 1275px) {u
     .heading {
         font-size: 36px;
     }
@@ -1140,8 +1168,12 @@ Small phones, tablets, smartphones
         width: 512px;
     }
 }
-
+/* <--------------------1025px--------------------> */
 @media (max-width: 1025px) {
+    .purple {
+        font-weight: 900;
+    }
+
     .btn__menu {
         display: block;
     }
@@ -1201,6 +1233,21 @@ Small phones, tablets, smartphones
         padding: 48px 0 0 0;
     }
 
+    .header__illustration {
+        width: 100%;
+        max-width: 512px;
+    }
+
+    .qualityWork__heading {
+        font-size: 36px;
+        max-width: 422px;
+    }
+
+    .qualityWork__para {
+        font-size: 16px;
+        text-align: start;
+    }
+
     .values__heading {
         font-size: 36px;
     }
@@ -1223,7 +1270,28 @@ Small phones, tablets, smartphones
 
     .plans__container {
         flex-direction: column;
+        align-items: center;
     }
+
+    /* PRICING */
+
+    .pricing__description {
+        font-size: 16px;
+    }
+
+    .plan__container {
+        width: 100%;
+        max-width: 384px;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 384px;
+    
+    }
+
+
+    /* TESTIMONIALS */
 
     .testimonials__wrapper--right {
         padding: 0 0 0 48px;
@@ -1243,12 +1311,45 @@ Small phones, tablets, smartphones
         font-size: 16px;
         text-align: start;
     }
-}
 
-@media (max-width: 768px) {
-    .features__description {
+    /* FAQS */
+
+    .faqs__description {
         font-size: 16px;
     }
+
+    /* GET STARTED BUTTONS */
+
+    .getStarted__text {
+        text-align: center;
+    }
+
+    .getStarted__row--container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        max-height: 135px;
+    }
+}
+
+/* <--------------------768px--------------------> */
+@media (max-width: 768px) {
+    .features__description {
+        font-size: 14px;
+    }
+
+    /* SERVICES */
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service__description {
+        text-align: start;
+    }
+
+    /* QUALITY WORK */
 
     .qualityWork {
         flex-direction: column;
@@ -1262,6 +1363,11 @@ Small phones, tablets, smartphones
         align-items: center;
         margin: 64px 94px 0;
         padding: 0;
+        order: 2;
+    }
+
+    .qualityWork__image {
+        order: 1;
     }
 
     .qualityWork__heading {
@@ -1270,6 +1376,8 @@ Small phones, tablets, smartphones
 
     .qualityWork__para {
         font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
     }
 
     .qualityWork__wrapper {
@@ -1282,6 +1390,8 @@ Small phones, tablets, smartphones
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* STEPS */
 
     .steps {
         flex-direction: column;
@@ -1313,7 +1423,78 @@ Small phones, tablets, smartphones
     .listItem {
         display: flex;
         flex-direction: column;
+        margin: 32px 0 0 0;
     }
+
+    .stepNumber {
+        text-align: center;
+    }
+
+    .stepText {
+        margin: 12px 0 0 0;
+    }
+    .stepHeading {
+        text-align: center;
+    }
+
+    .stepDescription {
+        width: 320px;
+        line-height: 2;
+    }
+
+    /* VALUES */
+
+    .values {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .values__wrapper {
+        width: 100%;
+        max-width: 448px;
+        order: 1;
+    }
+
+    .values__wrapper--left {
+        align-items: center;
+        order: 2;
+    }
+
+    .values__subheading {
+        text-align: center;
+    }
+
+    .values__heading {
+        text-align: center;
+    }
+
+    .values__description {
+        text-align: center;
+    }
+
+    .horizontalFeatures__wrapper {
+        margin: 40px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horizontalFeatures__description {
+        width: 320px;
+        text-align: center;
+    }
+
+    /* PRICING */
+    
+    .pricing__heading {
+        text-align: center;
+    }
+
+    .pricing__description {
+        font-size: 14px;
+    }
+    
+    /* TESTIMONIALS */
 
     .testimonials__image {
         width: 100%;
@@ -1343,6 +1524,7 @@ Small phones, tablets, smartphones
     .customer__description {
         font-size: 14px;
         margin: 24px;
+        text-align: center;
     }
 
     .customer__wrapper {
@@ -1351,13 +1533,50 @@ Small phones, tablets, smartphones
         align-items: center;
     }
 
+    .testimonial__quote {
+        text-align: center;
+    }
+
     .testimonials {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    /* FAQS */
+
+    .faqs__description {
+        font-size: 14pxu;
+    }
+
+    /* FOOTER */
+
+    .fiveColumnWithBackground__fiveColums {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+   
+    }
+
+    .fiveColumnWithBackground__column {
+        width: 150px;
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerCopyRights {
+        padding: 32px 0 0 0;
+    }
+
+    .socialLinks {
+        padding: 32px 0;
+    }
 }
 
+/* <--------------------640px--------------------> */
 @media (max-width: 640px) {
     .heading {
         width: 100%;
@@ -1385,4 +1604,82 @@ Small phones, tablets, smartphones
         padding: 16px 0;
         margin: 16px 8px 16px 0;
     }
+
+    .features__heading {
+        font-size: 36px;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageContainer {
+        display: flex;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+    }
+
+    .textContainer {
+        text-align: center;
+        margin: 16px 0 0;
+    }
+
+    .service__description {
+        text-align: center;
+        margin: 4px 0 0 0;
+    }
+
+    .customerInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customerTextInfo {
+        text-align: center;
+        margin: 8px;
+    }
+
+    .customerInfoAndControls {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* FAQS */
+
+    .faqs__header {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .faqs__description {
+        font-size: 14px;
+    }
+
+    /* GET STARTED BUTTONS */
+
+    .getStarted__text {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .getStartedButton__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 132px;
+    }
+
+    .getStarted__primaryLink {
+        padding: 12px 24px;
+        margin: 0;
+    }
+
+    .getStarted__secondaryPrimaryLink {
+        padding: 12px 24px;
+        margin: 0;
+    }
+
 }
