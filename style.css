@@ -187,9 +187,9 @@ li {
     color: #6415ff;
 }
 
-.burger {
-    /* animation: swipeInRight 650ms 400ms backwards; */
-}
+/* .burger {
+    animation: swipeInRight 650ms 400ms backwards;
+} */
 
 .backdrop__x {
     animation: swipeOutRight 650ms 400ms backwards;
