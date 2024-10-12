@@ -188,7 +188,7 @@ li {
 }
 
 .burger {
-    animation: swipeInRight 650ms 400ms backwards;
+    /* animation: swipeInRight 650ms 400ms backwards; */
 }
 
 .backdrop__x {
