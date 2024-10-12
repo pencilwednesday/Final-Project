@@ -43,13 +43,13 @@ nav {
 }
 
 .nav__container {
-   width: 100%;
-   max-width: 1320px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: 0 auto;
-   animation: swipeInRight 650ms 400ms backwards;
+    width: 100%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    animation: swipeInRight 650ms 400ms backwards;
 }
 
 @keyframes swipeInRight {
@@ -92,10 +92,10 @@ li {
 }
 
 .nav__link--login {
-  text-decoration: none;
-  color: #243e63;
-  font-weight: 600; 
-  margin: 0 24px 0 48px;
+    text-decoration: none;
+    color: #243e63;
+    font-weight: 600; 
+    margin: 0 24px 0 48px;
 }
 
 .nav__link:hover, .nav__link--login:hover {
@@ -128,20 +128,24 @@ li {
 
 .menu__backdrop {
     position: absolute;
-    background-color: #242424;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    background-color: white;
+    padding: 32px;
     z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
     display: none;
+    width: 96%;
+    right: 16px;
+    top: 16px;
 }
 
 .menu--open .menu__backdrop {
     display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    animation: swipeInLeft 650ms 400ms backwards;
 }
 
 .menu__links {
@@ -151,13 +155,25 @@ li {
 }
 
 .menu__list {
-    padding: 32px 0;
+    padding: 0 0 4px;
+    margin: 8px 0;
 }
 
 .menu__link {
-    font-size: 40px;
-    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a202c;
     text-decoration: none;
+}
+
+.nav__link--primaryBurger {
+    padding: 12px 32px;
+    text-decoration: none;
+    border: none;
+    border-radius: 32px;
+    background-color: #6415ff;
+    color: white;
+    cursor: pointer;
 }
 
 .btn__menu--close {
@@ -165,8 +181,25 @@ li {
     right: 20px;
     top: 10px;
     padding: 8px;
-    color: white;
 }
+
+.fas {
+    color: #6415ff;
+}
+
+.burger {
+    animation: swipeInRight 650ms 400ms backwards;
+}
+
+.backdrop__x {
+    animation: swipeOutRight 650ms 400ms backwards;
+}
+
+.backdrop__x--close {
+    animation-direction: swipeOutRight reverse;
+}
+
+
 
 /*
 
@@ -1184,7 +1217,7 @@ input {
 */
 
 /* <--------------------1275px--------------------> */
-@media (max-width: 1275px) {u
+@media (max-width: 1275px) {
     .heading {
         font-size: 36px;
     }
@@ -1196,6 +1229,7 @@ input {
     .header__illustration {
         width: 512px;
     }
+
 }
 /* <--------------------1025px--------------------> */
 @media (max-width: 1025px) {
@@ -1575,7 +1609,7 @@ input {
     /* FAQS */
 
     .faqs__description {
-        font-size: 14pxu;
+        font-size: 14px;
     }
 
     /* FOOTER */
